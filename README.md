@@ -77,9 +77,8 @@ Email Delivery (Gmail)
 - 📊 Workflow flowchart  
 - 🧩 Make.com scenario setup  
 - 📩 Email output in Gmail  
-- 🎥 Video demo of automation execution  
 
-*(Screenshots and video available in this repository)*
+*(Screenshots available in this repository)*
 
 ---
 
