@@ -39,15 +39,15 @@ This automation solves that by delivering **AI-generated summaries directly via 
 ## 🔄 Workflow Architecture
 
 Scheduler
-↓
+->
 RSS Feed (TechCrunch)
-↓
+->
 Text Cleaning & Processing
-↓
+->
 AI Summarization (Hugging Face)
-↓
+->
 HTML Email Formatting
-↓
+->
 Email Delivery (Gmail)
 
 ---
@@ -107,7 +107,3 @@ Email Delivery (Gmail)
 Final-year B.Tech student
 
 📬 Feel free to connect or reach out!
-
----
-
-⭐ If you find this project interesting, consider starring the repo!
