@@ -137,7 +137,9 @@ Optimized for Make.com free tier usage
 ---
 
 👨‍💻 Author
+
 Vatsal Mishra
-B.Tech Student | Automation & AI Enthusiast
+
+Final Year B.Tech Student 
 
 📬 Feel free to connect or reach out!
