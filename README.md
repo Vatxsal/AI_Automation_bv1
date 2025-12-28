@@ -1,108 +1,112 @@
 # 🚀 AI-Powered Tech News Email Automation
 
-An end-to-end AI automation built using **Make.com** that fetches the latest tech news, summarizes it using **open-source AI models**, and delivers a clean, professional **HTML email digest** automatically.
+An end-to-end **email newsletter automation** built using **Make.com** that fetches the latest tech news from TechCrunch, processes and summarizes it using open-source AI models, and delivers a **clean, professional HTML daily digest** directly to Gmail.
+
+This project is designed to be **fully automated, cost-efficient, and production-ready**.
 
 ---
 
 ## 📌 Project Overview
 
-This project automates the process of:
-- Collecting real-time tech news from trusted sources
-- Generating concise AI-powered summaries
-- Formatting the content into a newsletter-style email
-- Delivering it automatically to an inbox
+This automation handles the complete pipeline of a tech newsletter:
 
-The entire workflow is built **without paid APIs**, making it cost-effective and scalable.
+- Collects real-time tech news via RSS
+- Prevents duplicate article delivery
+- Generates AI-based summaries
+- Formats content into a single, professional HTML email
+- Sends a daily digest automatically via Gmail
+
+All of this is achieved **without using any paid APIs or backend servers**.
 
 ---
 
 ## 🧠 Why This Project?
 
-Professionals and founders often want quick, readable tech updates without browsing multiple websites.  
-This automation solves that by delivering **AI-generated summaries directly via email**.
+Professionals, founders, and students often want:
+- Curated tech news
+- Clean summaries
+- One email instead of multiple websites
+- Zero manual effort
+
+This project solves that by delivering a **daily, readable, inbox-ready tech digest** — automatically.
 
 ---
 
 ## 🛠️ Tech Stack
 
 | Category | Tool |
-|------|------|
+|-------|------|
 | Automation Platform | Make.com |
 | News Source | TechCrunch RSS |
-| AI Model | Hugging Face (facebook/bart-large-cnn) |
+| Duplicate Handling | Google Sheets |
+| AI Summarization | Hugging Face (facebook/bart-large-cnn) |
 | API Integration | HTTP Module |
+| Text Processing | Make Tools |
+| Email Formatting | Text Aggregator (HTML) |
 | Email Delivery | Gmail |
-| Email Format | HTML |
+| Scheduling | Daily Cron (Make.com) |
 
 ---
 
 ## 🔄 Workflow Architecture
 
 Scheduler
-->
-RSS Feed (TechCrunch)
-->
-Text Cleaning & Processing
-->
-AI Summarization (Hugging Face)
-->
-HTML Email Formatting
-->
-Email Delivery (Gmail)
+   ↓
+RSS – Retrieve TechCrunch Feed
+   ↓
+Google Sheets – Search Rows (Duplicate Check)
+   ↓
+Google Sheets – Add Row (Store New Articles)
+   ↓
+Tools – Text Cleaning & Processing
+   ↓
+HTTP – AI Summarization (Hugging Face)
+   ↓
+Tools – Post-processing
+   ↓
+Text Aggregator – HTML Email Generation
+   ↓
+Gmail – Send Daily Digest
 
 ---
 
-## ⚙️ Key Features
+⚙️ Key Features
+✅ Fully automated daily workflow
+✅ Duplicate article protection using Google Sheets
+✅ AI-generated summaries via Hugging Face
+✅ Single professional email header & footer
+✅ Clean, readable multi-article layout
+✅ Click-through “Read full article” links
+✅ Gmail-safe Raw HTML formatting
+✅ RSS article limit control (e.g., Top 5 news)
+✅ No paid services or subscriptions
 
-- ✅ Fully automated workflow
-- ✅ AI-generated summaries
-- ✅ Professional HTML email layout
-- ✅ Secure API handling
-- ✅ No paid services used
-- ✅ Easily customizable for clients or teams
+📧 Sample Email Output
+Each email includes:-
+📰 Newsletter-style header (shown once)
+📌 Multiple curated tech headlines
+📝 Concise summaries
+🔗 Direct article links
+🕒 Auto-generated date
+🔻 Professional footer with source attribution
 
----
+Designed for clarity, credibility, and impact.
 
-## 📧 Sample Email Output
+📸 Screenshots & Demo
+This repository contains:
+📊 Make.com workflow overview
+🧩 Module-by-module scenario setup
+📩 Final email output in Gmail
 
-📌 Includes:
-- AI-written summary  
-- Article source & link  
-- Clean CTA button  
-- Auto-generated date  
-- Professional footer  
+🔐 Security & Cost
+No sensitive user data stored
+API keys handled securely inside Make.com
+No external backend servers
+Uses only free and open-source AI models
+Optimized for Make.com free tier usage
 
-## 📸 Screenshots & Demo
-
-- 📊 Workflow flowchart  
-- 🧩 Make.com scenario setup  
-- 📩 Email output in Gmail  
-
-*(Screenshots available in this repository)*
-
----
-
-## 🔐 Security & Cost
-
-- No sensitive data stored
-- API keys managed securely inside Make.com
-- Uses only free and open-source AI APIs
-
----
-
-## 🚀 Future Enhancements
-
-- Daily digest (multiple articles per email)
-- Subscriber-based newsletter system
-- Custom RSS sources per user
-- Branding and client-ready templates
-- Image generation using free APIs
-
----
-
-## 👨‍💻 Author
-
-**Vatsal Mishra**  
-Final-year B.Tech student
+👨‍💻 Author
+Vatsal Mishra
+B.Tech Student | Automation & AI Enthusiast
 
 📬 Feel free to connect or reach out!
