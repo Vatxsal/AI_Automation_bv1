@@ -70,7 +70,7 @@ Gmail – Send Daily Digest
 
 ---
 
-⚙️ Key Features
+## ⚙️ Key Features
 
 ✅ Fully automated daily workflow
 
@@ -90,7 +90,9 @@ Gmail – Send Daily Digest
 
 ✅ No paid services or subscriptions
 
-📧 Sample Email Output
+---
+
+## 📧 Sample Email Output
 Each email includes:-
 
 📰 Newsletter-style header (shown once)
@@ -107,7 +109,9 @@ Each email includes:-
 
 Designed for clarity, credibility, and impact.
 
-📸 Screenshots & Demo
+---
+
+## 📸 Screenshots & Demo
 This repository contains:
 
 📊 Make.com workflow overview
@@ -116,7 +120,9 @@ This repository contains:
 
 📩 Final email output in Gmail
 
-🔐 Security & Cost
+---
+
+## 🔐 Security & Cost
 
 No sensitive user data stored
 
