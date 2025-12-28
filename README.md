@@ -51,58 +51,81 @@ This project solves that by delivering a **daily, readable, inbox-ready tech dig
 ## 🔄 Workflow Architecture
 
 Scheduler
-   ↓
+   ->
 RSS – Retrieve TechCrunch Feed
-   ↓
+   ->
 Google Sheets – Search Rows (Duplicate Check)
-   ↓
+   ->
 Google Sheets – Add Row (Store New Articles)
-   ↓
+   ->
 Tools – Text Cleaning & Processing
-   ↓
+   ->
 HTTP – AI Summarization (Hugging Face)
-   ↓
+   ->
 Tools – Post-processing
-   ↓
+   ->
 Text Aggregator – HTML Email Generation
-   ↓
+   ->
 Gmail – Send Daily Digest
 
 ---
 
 ⚙️ Key Features
+
 ✅ Fully automated daily workflow
+
 ✅ Duplicate article protection using Google Sheets
+
 ✅ AI-generated summaries via Hugging Face
+
 ✅ Single professional email header & footer
+
 ✅ Clean, readable multi-article layout
+
 ✅ Click-through “Read full article” links
+
 ✅ Gmail-safe Raw HTML formatting
+
 ✅ RSS article limit control (e.g., Top 5 news)
+
 ✅ No paid services or subscriptions
 
 📧 Sample Email Output
 Each email includes:-
+
 📰 Newsletter-style header (shown once)
+
 📌 Multiple curated tech headlines
+
 📝 Concise summaries
+
 🔗 Direct article links
+
 🕒 Auto-generated date
+
 🔻 Professional footer with source attribution
 
 Designed for clarity, credibility, and impact.
 
 📸 Screenshots & Demo
 This repository contains:
+
 📊 Make.com workflow overview
+
 🧩 Module-by-module scenario setup
+
 📩 Final email output in Gmail
 
 🔐 Security & Cost
+
 No sensitive user data stored
+
 API keys handled securely inside Make.com
+
 No external backend servers
+
 Uses only free and open-source AI models
+
 Optimized for Make.com free tier usage
 
 👨‍💻 Author
