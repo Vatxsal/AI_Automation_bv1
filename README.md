@@ -134,6 +134,8 @@ Uses only free and open-source AI models
 
 Optimized for Make.com free tier usage
 
+---
+
 👨‍💻 Author
 Vatsal Mishra
 B.Tech Student | Automation & AI Enthusiast
